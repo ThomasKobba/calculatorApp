@@ -11,3 +11,8 @@ function appendToDisplay(value) {
   //   display.value += value; // Append the new value to the existing content
   // }
 }
+
+// Clear the display
+function clearDisplay() {
+  display.value = "";
+}
